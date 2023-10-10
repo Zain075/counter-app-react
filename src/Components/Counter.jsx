@@ -11,10 +11,10 @@ function Counter() {
         setCounter(counter+1)       
     }
     function decrementCounter(){
-       if(counter!==0){
+      if(counter!==0){
         // decrement by 1
         setCounter(counter-1)
-       }
+      }
     }
     function resetCounter(){
         setCounter(counter*0)
